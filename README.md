@@ -1,10 +1,24 @@
-- 👋 Hi, I’m Paul Jiang
-- 👀 I’m interested in League of Legends and Teamfight Tactics.
-- 🌱 I’m currently learning Python and SQL.
-- 💞️ I’m looking to collaborate on anything.
-- 📫 How to reach me @jiangpaul222@gmail.com
+## Introduction
+The NYC DOT has requested the creation of a script to snap LION to NYC Roadways since the geospatial data are in two different coordinate systems, making data maintenance harder.
 
-<!---
-jiangpaul222/jiangpaul222 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## Installing GeoPandas
+To install the latest development version of GeoPandas, you can clone the GitHub repository and use the setup script:
+```sh
+git clone https://github.com/geopandas/geopandas.git
+cd geopandas
+pip install .
+```
+
+## Dependencies
+```sh
+numpy
+pandas
+shapely
+fiona
+six
+pyproj
+```
+Installing the conda package from the conda-forge channel should also install all dependencies automatically:
+```sh
+conda install -c conda-forge geopandas
+```
